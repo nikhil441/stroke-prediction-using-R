@@ -1,0 +1,25 @@
+
+Stroke Prediction Model Documentation
+
+Input Features Required:
+- age: numeric (years)
+- gender: factor ('Male' or 'Female')
+- hypertension: binary (0 or 1)
+- heart_disease: binary (0 or 1)
+- ever_married: factor ('Yes' or 'No')
+- work_type: factor ('Private', 'Self-employed', 'Govt_job', 'children', 'Never_worked')
+- Residence_type: factor ('Urban' or 'Rural')
+- avg_glucose_level: numeric (mg/dL)
+- bmi: numeric
+- smoking_status: factor ('formerly smoked', 'never smoked', 'smokes', 'Unknown')
+
+Output:
+- risk_score: probability of stroke (0-1)
+- classification: 'High Risk' or 'Low Risk'
+- probability: full probability distribution
+
+Model Performance:
+- ROC-AUC: [Insert final ROC-AUC score]
+- Sensitivity: [Insert final sensitivity]
+- Specificity: [Insert final specificity]
+
